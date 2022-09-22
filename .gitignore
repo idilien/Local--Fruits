@@ -1,7 +1,7 @@
 
 
 src/
-.gulpfile.js
+gulpfile.js
 
 .sass-cache/
 *.css.map
