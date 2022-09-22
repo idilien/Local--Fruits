@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local EcoVegetables</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/build/css/app.css">
+</head>
+<body>
+    
+    <header class="header contenedor">
+        <div class="header__logo">
+            <img src="build/img/logo_cesta_titulo.svg" alt="logo app">
+        </div>
+
+        <nav class="nav">
+            <a href="#" class="nav__link">Iniciar Sesión</a>
+            <a href="#" class="nav__link">Recetas</a>
+            <a href="#" class="nav__link nav__link--register">Registrar Agricultores</a>
+        </nav>
+    </header>
+
+    <section class="contenedor formulario">
+        <div class="formulario__grid">
+            <div class="formulario__contenido">
+                <h2 class="formulario__heading">Frutas y Verduras Ecológicas <br>De la Huerta a tu Casa</h2>
+                <form class="formilario__buscar">
+                    <div class="formulario__campo">
+                        <label for="zona" class="formulario__label">Población</label>
+                        <input class="formulario__input" id="zona" type="text" placeholder="Madrid,Barcelona, Valencia">
+                    </div>
+                    <div class="formulario__campo">
+                        <label for="producto" class="formulario__label">Producto</label>
+                        <input class="formulario__input" id="producto" type="text" placeholder="Tomates,Judias,Calabacin">
+                    </div>
+                    <input type="submit" class="formulario__submit" value="Buscar">
+                </form>
+            </div>
+            <div class="formulario__imagen-contenedor">
+                <img class="formulario__imagen" src="build/img/frutas3.png" alt="img repartidor">
+            </div>
+        </div>
+    </section>
+
+    <section class="pasos">
+        <img class="pasos__wave" src="build/img/wave2.svg" alt="img svg">
+        <div class="pasos__contenido">
+            <h2 class="pasos__heading" >¿Cómo funciona? <span class="pasos__heading--descripcion">tan fácil como 1,2 y 3</span></h2>
+            <div class="pasos__grid contenedor">
+
+                <div class="pasos__card">  
+                        <img class="pasos__imagen" src="build/img/huerta_campillo.png" alt="imagen paso1">
+                        <h4 class="pasos__text"> Selecciona Huerta</h4>      
+                </div>
+                <div class="pasos__card">  
+                        <img class="pasos__imagen" src="build/img/paso2-80.jpg" alt="imagen paso1">
+                        <h4 class="pasos__text">Elige tus productos</h4>      
+                </div>
+                <div class="pasos__card">  
+                        <img class="pasos__imagen" src="build/img/paso3-80.jpg" alt="imagen paso1">
+                        <h4 class="pasos__text">Envio al Instante</h4>      
+                </div>
+
+              
+                
+            </div>
+        </div>
+        <img class="pasos__wave" src="build/img/wave3.svg" alt="img svg">
+    </section>
+
+    <section class="contenedor coment">
+        <h2 class="coment__opiniones">Opiniones</h2>
+        <div class="coment__grid">
+
+            <div class="comentarios">
+                <header class="comentarios__header">
+                    <div class="comentarios__img">
+                        <img src="build/img/testimonial1.jpg" alt="img comentarios">
+                    </div>
+                    <div class="comentarios__info">
+                        <p class="comentarios__autor">Juan Pérez</p>
+                        <img class="comentarios__calif" src="build/img/estrellas.png" alt="img estrellas">
+                    </div>
+                </header>
+                <blockquote class="comentarios__texto">
+                    Una excelente app, puedo seleccionar de una gran cantidad de muy buenos productos de gran sabor y calidad.
+                </blockquote>
+            </div>
+
+            <div class="comentarios">
+                <header class="comentarios__header">
+                    <div class="comentarios__img">
+                        <img src="build/img/testimonial2.jpg" alt="img comentarios">
+                    </div>
+                    <div class="comentarios__info">
+                        <p class="comentarios__autor">Melissa Cruz</p>
+                        <img class="comentarios__calif" src="build/img/estrellas.png" alt="img estrellas">
+                    </div>
+                </header>
+                <blockquote class="comentarios__texto">
+                    Una excelente app, puedo seleccionar de productos de gran calidad.
+                </blockquote>
+            </div>
+
+            <div class="comentarios">
+                <header class="comentarios__header">
+                    <div class="comentarios__img">
+                        <img src="build/img/testimonial3.jpg" alt="img comentarios">
+                    </div>
+                    <div class="comentarios__info">
+                        <p class="comentarios__autor">Diego Alonso</p>
+                        <img class="comentarios__calif" src="build/img/estrellas.png" alt="img estrellas">
+                    </div>
+                </header>
+                <blockquote class="comentarios__texto">
+                    Una excelente app, puedo seleccionar de una gran cantidad de productos de gran sabor y calidad. Entrega eficaz a la hora elegida
+                </blockquote>
+            </div>
+
+            <div class="comentarios">
+                <header class="comentarios__header">
+                    <div class="comentarios__img">
+                        <img src="build/img/testimonial4.jpg" alt="img comentarios">
+                    </div>
+                    <div class="comentarios__info">
+                        <p class="comentarios__autor">Roser Contreras</p>
+                        <img class="comentarios__calif" src="build/img/estrellas.png" alt="img estrellas">
+                    </div>
+                </header>
+                <blockquote class="comentarios__texto">
+                    Una excelente app, puedo seleccionar de una gran cantidad de productos de gran sabor y calidad.
+                </blockquote>
+            </div>
+
+            <div class="comentarios">
+                <header class="comentarios__header">
+                    <div class="comentarios__img">
+                        <img src="build/img/testimonial5.jpg" alt="img comentarios">
+                    </div>
+                    <div class="comentarios__info">
+                        <p class="comentarios__autor">Marta Fornos</p>
+                        <img class="comentarios__calif" src="build/img/estrellas.png" alt="img estrellas">
+                    </div>
+                </header>
+                <blockquote class="comentarios__texto">
+                    Una excelente app, puedo seleccionar de una gran cantidad de productos de gran sabor y calidad.
+                </blockquote>
+            </div>
+
+        </div>
+    </section>
+
+    <main class="huertas">
+        <h2 class="huertas__heading">Agricultores Sostenibles y Responsables con Certificado Ecológico</h2>
+
+        <div class="huertas__grid contenedor">
+
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/huerta_campillo.png" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre">Huerta el Campillo</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/huerta_soria.jpeg" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre">Huerta de Soria</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/huerta_club.jpg" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre">Huerta Club</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/huerta_express.jpg" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre">Huerta Express</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/huerta_la.jpg" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre"> La Huerta </h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/huerta_farms.png" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre">Huerta Farms</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/logo_ensaladas.png" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre">Huerta Sebastian</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/logo_ensaladas.png" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre">Huerta Sebastian</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/logo_ensaladas.png" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre">Huerta Sebastian</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="favorito">
+                <div class="favorito__grid">
+                    <div class="favorito__img">
+                        <img src="build/img/logo_ensaladas.png" alt="logo ensaladas">
+                    </div>
+                    <div class="favorito__contenido">
+                        <img src="build/img/estrellas.png" alt="calificacion productor">
+                        <h3 class="favorito__nombre">Huerta Sebastian</h3>
+                        <p class="favorito__descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi voluptatibus quo omnis. Facilis, eveniet fugiat quia optio totam distinctio dicta unde pariatur assumenda, repudiandae eos voluptates numquam harum aut?</p>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </main>
+
+    <section class="grupos">
+        <h2 class="grupos__heading">Grupos de Consumo <br> Fomentando un Cosumo Local y Proximidad</h2>
+        
+        <div class="grupos__grid contenedor">
+            <div class="grupos__imagen">
+                <img class="grupos__img" src="build/img/frutas2.jpg" alt="img grupos">
+            </div>
+            <div class="grupos__contenido">
+                <p class="grupos__texto">Nos referimos a las alternativas de consumo que plantean los Grupos de Consumo, grupos de personas que se ponen en contacto directo con los productores, ecológicos generalmente, y consumen sus productos evitando la actuación de intermediarios.<br>
+                    Algunos productores también llevan sus productos directamente en cajas a domicilio y, en muchas ocasiones, ofrecen la posibilidad a los consumidores de visitar sus terrenos. Estos movimientos promueven lo que se llaman los "canales cortos de comercialización", fomentando un consumo local, de proximidad y una relación directa entre el consumidor y el productor.</p>
+                <a class="grupos__enlace" href="#">Leer más</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="grupos">
+        
+        <h2 class="grupos__heading"> Con Certificado Ecológico</h2>
+        <div class="grupos__grid contenedor"> 
+        <div class="grupos__contenido">
+            <p class="grupos__texto">En el mundo se han elaborado una serie de sellos de certificación de agricultura ecológica, con los que se suele comercializar la producción ecológica, que garantizan que los productos cumplen con la normativa ecológica. En España nos guiamos por el Reglamento de la Unión Europea (Reglamento (CE) 834/2007), y los encargados de su puesta en práctica y control son Consejos o Comités de Agricultura Ecológica autonómicos. En los productos ecológicos comercializados, si nos fijamos, encontraremos rápidamente la etiqueta de Agricultura Ecológica.</p>
+            <!-- <a class="grupos__enlace" href="#">Leer más</a> -->
+        </div>
+            <div class="grupos__imagen">
+                <img class="grupos__img"  src="build/img/frutas1.jpg" alt="img grupos">
+            </div>
+        </div>
+    </section>
+
+    <section class="descargar">
+        <div class="descargar__grid contenedor">
+            <div class="descargar__imagen">
+                <img src="build/img/movil.jpg" alt="imagen app">
+            </div>
+            <div class="app">
+                <h3 class="app__heading">Descarga la app</h3>
+                <p class="app__texto">Disponible Android y iOS</p>
+                <div class="app__grid">
+                    <a class="app__enlace" href="#">
+                        <img src="build/img/tienda-android.svg" alt="app android">
+                    </a>
+                    <a class="app__enlace" href="#">
+                        <img src="build/img/tienda-apple.svg" alt="app apple">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer__grid contenedor">
+            <div class="footer__widget">
+                <h3 class="footer__heading">Nosotros</h3>
+                <p class="footer__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta delectus ab eos optio aperiam, ducimus, id fugiat, officia vitae nostrum! Dolor laborum cum saepe quaerat. Sint quisquam numquam debitis?</p>
+            </div>
+            
+            <div class="footer__widget">
+                <h3 class="footer__heading">Navegación</h3>
+                <nav class="footer__nav">
+                    <a href="#" class="footer__link">Enlace 1</a>
+                    <a href="#" class="footer__link">Enlace 2</a>
+                    <a href="#" class="footer__link">Enlace 3</a>
+                    <a href="#" class="footer__link">Enlace 4</a>
+                    <a href="#" class="footer__link">Enlace 5</a>
+                </nav>
+            </div>
+            <div class="footer__widget">
+                <h3 class="footer__heading">Contacto</h3>
+                <p class="footer__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis dicta delectus ab eos optio aperiam, ducimus, id fugiat, officia vitae nostrum! Dolor laborum cum saepe quaerat. Sint quisquam numquam debitis?</p>
+            </div>
+        </div>
+        <p class="footer__copy">
+            Todos los derechos reservados. Local Eco Vegetables
+        </p>
+    </footer>
+
+</body>
+</html>
+
